@@ -8,7 +8,6 @@
 </head>
 <body>
     <h2>Current Date and Time:</h2>
-    <!-- Intentional error: removing closing tag for the paragraph -->
-    <p><%= new Date() %>
+    <p><%= new Date() %></p>
 </body>
 </html>
