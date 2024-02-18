@@ -1,11 +1,14 @@
 <%@ page import="java.util.Date" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Date JSP Example</title>
+    <meta charset="UTF-8">
+    <title>Date Display</title>
 </head>
 <body>
-    <h1>Hello, this is a simple JSP example!</h1>
-    <p>The current date and time is: <%= new Date() %
+    <h2>Current Date and Time:</h2>
+    <!-- Intentional error: removing closing tag for the paragraph -->
+    <p><%= new Date() %>
 </body>
 </html>
