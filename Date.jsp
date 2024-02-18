@@ -8,6 +8,6 @@
 </head>
 <body>
     <h2>Current Date and Time:</h2>
-    <p><%= new Date() %></p>
+    <p><%= new Date() %>
 </body>
 </html>
