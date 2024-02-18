@@ -6,6 +6,6 @@
 </head>
 <body>
     <h1>Hello, this is a simple JSP example!</h1>
-    <p>The current date and time is: <%= new Date() %></p
+    <p>The current date and time is: <%= new Date() %
 </body>
 </html>
